@@ -11,5 +11,5 @@ export default function handler(
 ) {
   setTimeout(() => {
     res.status(200).json({ name: "John Doe" });
-  }, 4000);
+  }, 20000);
 }
